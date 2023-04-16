@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import './App.css'
 import { ThemeProvider } from 'styled-components'
 import { defaultTheme } from './styles/themes/default'
 import { GlobalStyle } from './styles/global'
 import { BrowserRouter } from 'react-router-dom'
-import { Router } from './routes'
+import { Router } from './Routes'
 
 function App() {
   const [count, setCount] = useState(0)
