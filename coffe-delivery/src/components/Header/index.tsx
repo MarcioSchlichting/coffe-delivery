@@ -8,8 +8,12 @@ export const Header = () => (
             <img src={coffeLogo}></img>
 
             <HeaderButtonContainer>
-                <HeaderButton>
-
+                <HeaderButton variant="purple">
+                    <MapPin size={20} weight="fill" />
+                    São José, SC
+                </HeaderButton>
+                <HeaderButton variant="yellow">
+                    <ShoppingCart size={20} weight="fill" />
                 </HeaderButton>
             </HeaderButtonContainer>
         </div>
