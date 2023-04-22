@@ -33,6 +33,5 @@ export const HeaderButton = styled.button`
     border-radius: 6px;
     border: none;
     padding: 0 0.5rem;
-    position: relative;
-    
+    position: relative;   
 `

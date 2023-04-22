@@ -1,5 +1,6 @@
 import { HeaderButton, HeaderButtonContainer, HeaderContainer } from "./styles"
 import coffeLogo from '../../../src/assets/coffee-delivery-logo.svg';
+import { MapPin, ShoppingCart } from 'phosphor-react';
 
 export const Header = () => (
     <HeaderContainer>
@@ -7,7 +8,9 @@ export const Header = () => (
             <img src={coffeLogo}></img>
 
             <HeaderButtonContainer>
-                <HeaderButton/>
+                <HeaderButton>
+
+                </HeaderButton>
             </HeaderButtonContainer>
         </div>
     </HeaderContainer>)
